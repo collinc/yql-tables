@@ -17,7 +17,7 @@
 		</select>
 		<select itemPath="" produces="XML">
 			<urls>
-				<url>http://steamcommunity.com/profiles/{customurl}/statsfeed/{appid}/?xml=1&schema=1</url>
+				<url>http://steamcommunity.com/id/{customurl}/statsfeed/{appid}/?xml=1&schema=1</url>
 			</urls>
 			<inputs>
 				<key id="customurl" type="xs:string" paramType="path" required="true" />
